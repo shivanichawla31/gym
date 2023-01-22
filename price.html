@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing</title>
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;background-color:rgba(30, 143, 255, 0.096)}
+* {box-sizing: border-box}
+
+.navbar {
+  width: 100%;
+  background-color:rgb(241, 158, 172);
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%; /* Four links of equal widths */
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.navbar a.active {
+  background-color: #9933cc;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: pink}
+    </style>
+</head>
+<body>
+    <div class="navbar">
+    <a class="active" href="index.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+    <a href="about.html">About Us</a> 
+    <a href="price.html">Pricing</a> 
+    <a href="login.html"><i class="fa fa-fw fa-user"></i> Login</a>
+  </div>
+  <div class="container">
+    <img src="bruce-mars-gJtDg6WfMlQ-unsplash.jpg" alt="Notebook" style="width:100%;">
+    <div class="content">
+      <h1></h1>PRICING</h1>
+      <p>Serious about money? A sweet escape, evem sweeter prices. We are alashing our prices for the first few customers, We are running the monster sale, the witches says these prices are just magical.
+        These low prices are real. It is true check out our killer prices.
+        Lower price than ever, No nead to squeak and squeal. THE PRICES ARE REAL.</p>
+    </div>
+  </div>
+  <div style="overflow-x:auto;">
+    <table>
+      <tr>
+        <th>PLAN</th>
+        <th>TRAINER</th>
+        <th>DIET</th>
+        <th>PRICE</th>
+     
+      </tr>
+      <tr>
+        <td>Start</td>
+        <td>Na</td>
+        <td>Na</td>
+        <td>$10</td>
+      
+      </tr>
+      <tr>
+        <td>Pro</td>
+        <td>Public Trainer</td>
+        <td>Public anounce</td>
+        <td>$24</td>
+       
+      </tr>
+      <tr>
+        <td>Pro+</td>
+        <td>Public Trainer</td>
+        <td>Diet Chart</td>
+        <td>$50</td>
+     
+      </tr>
+       <tr>
+        <td>Exclusive</td>
+        <td>Personal Trainer</td>
+        <td>Diet Chart</td>
+        <td>$70</td>
+     
+      </tr>
+    </table>
+  </div>
+  
+    
+</body>
+</html>
